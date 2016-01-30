@@ -1,6 +1,7 @@
 var TITLE_SCREEN = 0;
-var INSTRUCTIONS_SCREEN = 1;
-var FEEDBACK_SCREEN = 2;
+var INTRO_SPIEL_SCREEN = 1;
+var INSTRUCTIONS_SCREEN = 2;
+var FEEDBACK_SCREEN = 3;
 var NUM_STEPS = 7;
 var currentScreen;
 var grammar;
@@ -10,23 +11,35 @@ function setCurrentScreen(s)
 	if (s == TITLE_SCREEN)
 	{
 		$("#titleScreen").show();
+		$("#introSpielScreen").hide();
 		$("#instructionsScreen").hide();
 		$("#feedbackScreen").hide();
 		$("#timer").hide();
 		
-		$("#gongText").text("Ring the gong to start.");
+		$("#gongText").text("Sound the gong to start.");
 		
 		$('#timerText').stopwatch({format: '{M}:{ss}'}).stopwatch('reset');
 		$('#timerText').text("0:00");
 	}
+	if (s == INTRO_SPIEL_SCREEN)
+	{
+		$("#titleScreen").hide();
+		$("#introSpielScreen").show();
+		$("#instructionsScreen").hide();
+		$("#feedbackScreen").hide();
+		$("#timer").hide();
+		
+		$("#gongText").text("When you are ready, sound the gong.");
+	}
 	if (s == INSTRUCTIONS_SCREEN)
 	{
 		$("#titleScreen").hide();
+		$("#introSpielScreen").hide();
 		$("#instructionsScreen").show();
 		$("#feedbackScreen").hide();
 		$("#timer").show();
 		
-		$("#gongText").text("When you are finished, ring the gong.");
+		$("#gongText").text("When you are finished, sound the gong.");
 		
 		$('#timerText').stopwatch({format: '{M}:{ss}'}).stopwatch('start');
 		
@@ -35,11 +48,12 @@ function setCurrentScreen(s)
 	if (s == FEEDBACK_SCREEN)
 	{
 		$("#titleScreen").hide();
+		$("#introSpielScreen").hide();
 		$("#instructionsScreen").hide();
 		$("#feedbackScreen").show();
 		$("#timer").show();
 		
-		$("#gongText").text("Ring the gong to restart.");
+		$("#gongText").text("Sound the gong to restart.");
 		
 		$('#timerText').stopwatch({format: '{M}:{ss}'}).stopwatch('stop');
 		

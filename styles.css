@@ -7,18 +7,16 @@ body
 	color: #552B00;
 }
 
-li
+#drawing
 {
-	font-size: 42px;
-}
-
-/* #drawing
-{
-	background-image: url("assets/rocksculpture1.png");
-	background-size: 100%;
+	background-image: url("assets/candle1.png");
 	background-repeat: no-repeat;
+	position: fixed;
+	width: 600px;
 	height: 100%;
-} */
+	left: 400px;
+	opacity: 0.5;
+}
 
 #container
 {
@@ -26,7 +24,6 @@ li
 	left: 100px;
 	top: 50px;
 	width: 60%;
-	padding-bottom: 50px;
 }
 
 #timer
@@ -57,4 +54,21 @@ li
 	right: 70px;
 	bottom: 50px;
 	cursor: pointer;
+}
+
+#gongText
+{
+	margin: 50px 0;
+}
+
+#title
+{
+	font-size: 125px;
+	margin-top: 33px;
+}
+
+#subtitle
+{
+    font-size: 60px;
+    margin-left: 411px;
 }

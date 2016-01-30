@@ -22,6 +22,7 @@ var madlibs =
 		"#ritualCommand.capitalize#.",
 		"Clearing your #ineffableAspect# of #unwantedThoughts#, #ritualCommand#.",
 		"With #adjective.a# #bodyPart#, #ritualCommand#.",
+		"With #positiveAttribute#, #ritualCommand#.",
 		"Anoint yourself with #anointingObject.a#.",
 		"Bless the #currentLocation# you are in with #blessing.a#."
 	],
@@ -30,11 +31,30 @@ var madlibs =
 		"#speakTo# your partner #aboutSomething#",
 		"#adverb# #touch# your partner's #bodyPart#",
 		"gaze #adverb# into your partner's #ineffableAspect#",
+		"say \"#greetingPhrase#\" to your partner",
 		"#touch# your partner's #bodyPart# with your #bodyPart#"
 	],
 	"judgeFeedback":
 	[
-		"You have scored a #number# out of #number#. How utterly abysmal."
+		"#judgeComments# #judgeScore#"
+	],
+	"judgeComments":
+	[
+		"The judges #judgeOpinion#.",
+		"The judges #judgeOpinion#, but #judgeOpinion#.",
+		"While the judges #judgeOpinion#, they #judgeOpinion#."
+	],
+	"judgeOpinion":
+	[
+		"found you lacking in #positiveAttribute#",
+		"sensed #unwantedThoughts# in your #ineffableAspect#",
+		"were impressed by your #positiveAttribute#"
+	],
+	"judgeScore":
+	[
+		"You have been awarded #number# out of #number# points.",
+		"You have scored #number# out of #number#.",
+		"Your score is #number# out of #number#."
 	],
 	"about":
 	[
@@ -76,6 +96,10 @@ var madlibs =
 	[
 		"left", "right"
 	],
+	"greetingPhrase":
+	[
+		"Bonjour!", "Fancy seeing you in this #currentLocation#!", "Greetings!", "Hello!", "Hey there!", "Hi there!", "I've known you since you were this big!", "My, how you've grown!", "Namaste.", "Oh hey!", "Oh, is that [partner's name]?", "Salutations!", "'Sup?", "What's #person.a# like you doing in a #currentLocation# like this?", "Yo!"
+	],
 	"ineffableAspect":
 	[
 		"brain", "eyes", "heart", "mind", "nose", "secrets", "soul"
@@ -90,7 +114,15 @@ var madlibs =
 	],
 	"number":
 	[
-		"three", "five", "seven", "nine", "zero", "forty-two"
+		"negative infinity", "negative one", "zero", "three", "pi", "five", "seven", "nine", "nineteen", "forty-two", "one hundred and seven", "four hundred and twenty-nine", "nine thousand", "a million", "infinity", "two infinities", "the square root of negative one"
+	],
+	"person":
+	[
+		"#adjective# person", "award-winning recording artist", "baker", "blanket fort engineer", "butcher", "candlestick maker", "game jammer", "heir to the bubblegum machine empire", "international person of mystery", "Olympic gold medalist", "shoemaker", "spy master", "tabletop roleplayer"
+	],
+	"positiveAttribute":
+	[
+		"adeptness", "adroitness", "aptitude", "attitude", "audacity", "bravery", "brutal honesty", "charisma", "constitution", "courage", "dedication", "derring-do", "dexterity", "fortitude", "gentleness", "honesty", "intellect", "je ne sais quoi", "leadership", "panache", "prowess", "rancor", "solipsism", "speed", "strength", "style", "tact", "wisdom"
 	],
 	"regalAdjective":
 	[
@@ -98,7 +130,7 @@ var madlibs =
 	],
 	"regalTitle":
 	[
-		"#regalAdjective.capitalize# One", "Grandmaster Flash", "O [partner name]", "Professor", "Teacher", "Your Excellency"
+		"#person.a#", "#regalAdjective.capitalize# One", "Grandmaster Flash", "O [partner's name]", "Professor", "Teacher", "Your Excellency"
 	],
 	"speakTo":
 	[
@@ -110,7 +142,7 @@ var madlibs =
 	],
 	"unwantedThoughts":
 	[
-		"anger", "doubt", "embarrassment", "envy", "hatred", "jealousy", "judgement", "unwanted throughts"
+		"anger", "doubt", "embarrassment", "envy", "hatred", "jealousy", "judgement", "unwanted thoughts"
 	],
 	"wellBeing":
 	[
