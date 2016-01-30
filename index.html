@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Greetings</title>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="timer">
+		<div id="timerText"></div>
+	</div>
+	<div id="gong"></div>
+	<div id="drawing">
+		<div id="container">
+			<div id="titleScreen">
+				<div id="title">Get It On, Bang A Gong</div>
+				<div id="subtitle">A ritual for two players.</div>
+			</div>
+			<div id="instructionsScreen">
+				<div id="steps"></div>
+			</div>
+			<div id="feedbackScreen">
+				<div id="feedback">.</div>
+			</div>
+			<div id="gongText"></div>
+		</div>
+	</div>
+	<audio id="gongSound">
+		<source src="assets/gong.wav"></source>
+	</audio>
+	<script src="libraries/jquery-1.11.2.min.js"></script>
+	<script src="libraries/jintervals.js"></script>
+	<script src="libraries/jquery.stopwatch.js"></script>
+	<script src="libraries/keyboardcontroller.js"></script>
+	<script src="libraries/tracery.min.js"></script>
+	<script src="madlibs.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

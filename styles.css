@@ -1,0 +1,60 @@
+body
+{
+	background-image: url("assets/parchment-background.jpg");
+	background-size: 100%;
+	font-family: 'Tangerine', cursive;
+	font-size: 48px;
+	color: #552B00;
+}
+
+li
+{
+	font-size: 42px;
+}
+
+/* #drawing
+{
+	background-image: url("assets/rocksculpture1.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+} */
+
+#container
+{
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	width: 60%;
+	padding-bottom: 50px;
+}
+
+#timer
+{
+	width: 300px;
+	height: 150px;
+	background-image: url("assets/hourglass.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: fixed;
+	right: 70px;
+}
+
+#timerText
+{
+	font-size: 60px;
+	padding: 48px 0 0 168px;
+}
+
+#gong
+{
+	width: 300px;
+	height: 270px;
+	background-image: url("assets/gong.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: fixed;
+	right: 70px;
+	bottom: 50px;
+	cursor: pointer;
+}
