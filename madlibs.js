@@ -38,9 +38,9 @@ var madlibs =
 	],
 	"judgeFeedback":
 	[
-		"#judgeComments# #judgeScore#",
-		"#judgeInterjection# #judgeComments# #judgeScore#",
-		"#judgeComments# #judgeInterjection# #judgeScore#"
+		"#judgeComments# #judgeScore# #judgeConclusion#",
+		"#judgeInterjection# #judgeComments# #judgeScore# #judgeConclusion#",
+		"#judgeComments# #judgeInterjection# #judgeScore# #judgeConclusion#"
 	],
 	"judgeComments":
 	[
@@ -67,13 +67,21 @@ var madlibs =
 		"You have scored #number# out of #number#.",
 		"Your score is #number# out of #number#."
 	],
+	"judgeConclusion":
+	[
+		"You are a disgrace to every #person#.",
+		"You are the most #adjective# #person# to ever set foot in this establishment.",
+		"You are truly #adjective#.",
+		"You will forever be renowned for your #positiveAttribute#.",
+		"You will never be able to set foot in this establishment again."
+	],
 	"about":
 	[
 		"about", "regarding"
 	],
 	"aboutSomething":
 	[
-		"#about# the weather", "#about# their #wellBeing#", "#about# themself", "#about# yourself", "as #regalTitle#"
+		"#about# the weather", "#about# their day", "#about# their friends and family", "#about# their job",  "#about# their #wellBeing#", "#about# themself", "#about# your mutual acquaintance, who, by the way, says hi", "#about# yourself", "as #regalTitle#"
 	],
 	"adjective":
 	[
