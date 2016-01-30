@@ -32,15 +32,22 @@ var madlibs =
 		"#adverb# #touch# your partner's #bodyPart#",
 		"gaze #adverb# into your partner's #ineffableAspect#",
 		"say \"#greetingPhrase#\" to your partner",
-		"#touch# your partner's #bodyPart# with your #bodyPart#"
+		"#touch# your partner's #bodyPart# with your #bodyPart#",
+		"#gesture# towards your partner",
+		"cheek-kiss your partner #kissNumber# times, starting with the #direction# cheek"
 	],
 	"judgeFeedback":
 	[
-		"#judgeComments# #judgeScore#"
+		"#judgeComments# #judgeScore#",
+		"#judgeInterjection# #judgeComments# #judgeScore#",
+		"#judgeComments# #judgeInterjection# #judgeScore#"
 	],
 	"judgeComments":
 	[
+		"#judgeInterjection# #judgeComments#",
+		"#judgeComments# #judgeInterjection#",
 		"The judges #judgeOpinion#.",
+		"The judges #judgeOpinion# and #judgeOpinion#.",
 		"The judges #judgeOpinion#, but #judgeOpinion#.",
 		"While the judges #judgeOpinion#, they #judgeOpinion#."
 	],
@@ -49,6 +56,10 @@ var madlibs =
 		"found you lacking in #positiveAttribute#",
 		"sensed #unwantedThoughts# in your #ineffableAspect#",
 		"were impressed by your #positiveAttribute#"
+	],
+	"judgeInterjection":
+	[
+		"Astounding!", "Aw yeah!", "Aww!", "Fantastic!", "Gadzooks!", "Goodness!", "Goodness gracious!", "Great Scott!", "Holy cats!", "How disappointing!", "No way!", "Oh dear!", "OMG!", "Quelle surprise!", "Shocking!", "Superb!", "Well I never!", "What a twist!", "What an upset!", "Zounds!"
 	],
 	"judgeScore":
 	[
@@ -62,11 +73,11 @@ var madlibs =
 	],
 	"aboutSomething":
 	[
-		"#about# the weather", "#about# their #wellBeing#", "#about# themself", "as #regalTitle#"
+		"#about# the weather", "#about# their #wellBeing#", "#about# themself", "#about# yourself", "as #regalTitle#"
 	],
 	"adjective":
 	[
-		"blessed", "closed", "deft", "firm", "gentle", "hard", "kind", "nonjudgemental", "open", "polite", "sincere", "soft"
+		"bashful", "blessed", "closed", "cordial", "cool", "deft", "deep", "enthusiastic", "firm", "gentle", "hard", "impolite", "intense", "kind", "nonjudgemental", "open", "polite", "profound", "reluctant", "regal", "reserved", "rhythmic", "silent", "sincere", "soft", "sudden", "unabashed", "unreserved", "vigorous", "warm"
 	],
 	"adverb":
 	[
@@ -74,11 +85,11 @@ var madlibs =
 	],
 	"anointingObject":
 	[
-		"aerosol spray", "anti-perspirant", "box of baking soda", "breathmint", "cup of coffee", "deodorant", "glass of water", "handful of flower petals", "medicated powder", "perfume", "potpourri"
+		"aerosol spray", "anti-perspirant", "box of baking soda", "box of tissues", "breathmint", "cup of coffee", "cup of green tea", "deodorant", "glass of water", "handful of flower petals", "medicated powder", "pair of sensible footwear", "perfume", "potpourri", "slice of cold pizza", "snack", "sock", "stack of index cards", "warm winter coat"
 	],
 	"blessing":
 	[
-		"Gregorian chant", "interpretive dance", "Om", "prayer", "sun salutation", "song", "yodel"
+		"curse word", "enchantment", "Gregorian chant", "haiku", "interpretive dance", "oath", "obscure word", "offering", "Om", "orison", "poem", "prayer", "riverdance", "sacrifice", "secret", "semaphore pattern", "series of hand gestures", "song", "sonnet", "sun salutation", "wave of your hand", "yodel"
 	],
 	"bodyPart":
 	[
@@ -96,6 +107,10 @@ var madlibs =
 	[
 		"left", "right"
 	],
+	"gesture":
+	[
+		"bow", "curtsy", "gesticulate", "grimace", "incline", "jump", "lean", "nod", "pirouette", "play air guitar", "roll", "smile", "snap your fingers", "sneak", "stand on one leg", "step", "stick out your tongue", "turn", "undulate", "walk", "wave"
+	],
 	"greetingPhrase":
 	[
 		"Bonjour!", "Fancy seeing you in this #currentLocation#!", "Greetings!", "Hello!", "Hey there!", "Hi there!", "I've known you since you were this big!", "My, how you've grown!", "Namaste.", "Oh hey!", "Oh, is that [partner's name]?", "Salutations!", "'Sup?", "What's #person.a# like you doing in a #currentLocation# like this?", "Yo!"
@@ -103,6 +118,10 @@ var madlibs =
 	"ineffableAspect":
 	[
 		"brain", "eyes", "heart", "mind", "nose", "secrets", "soul"
+	],
+	"kissNumber":
+	[
+		"two", "three", "three and a half"
 	],
 	"location":
 	[
@@ -138,7 +157,7 @@ var madlibs =
 	],
 	"touch":
 	[
-		"caress", "hold", "nudge", "pat", "poke", "rub", "take", "tap", "tickle", "touch"
+		"caress", "fist bump", "hold", "nudge", "pat", "poke", "rub", "take", "tap", "tickle", "touch"
 	],
 	"unwantedThoughts":
 	[
