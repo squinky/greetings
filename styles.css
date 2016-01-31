@@ -2,6 +2,7 @@ body
 {
 	background-image: url("assets/parchment-background.jpg");
 	background-size: 100%;
+	background-attachment: fixed;
 	font-family: 'Tangerine', cursive;
 	font-size: 48px;
 	color: #552B00;
