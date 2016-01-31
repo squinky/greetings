@@ -20,7 +20,7 @@ var madlibs =
 	"ritualStep":
 	[
 		"#ritualCommand.capitalize#.",
-		"Clearing your #ineffableAspect# of #unwantedThoughts#, #ritualCommand#.",
+		"#clearing.capitalize# your #ineffableAspect# of #unwantedThoughts#, #ritualCommand#.",
 		"With #adjective.a# #bodyPart#, #ritualCommand#.",
 		"With #positiveAttribute#, #ritualCommand#.",
 		"With the #positiveAttribute# of #person.a#, #ritualCommand#."
@@ -78,11 +78,11 @@ var madlibs =
 	],
 	"about":
 	[
-		"about", "on the subject of", "regarding", "with regards to"
+		"about", "concerning", "in relation to", "on the subject of", "on the topic of", "pursuant to", "regarding", "with regards to"
 	],
 	"aboutSomething":
 	[
-		"#about# the weather", "#about# their day", "#about# their friends and family", "#about# their job",  "#about# their #wellBeing#", "#about# themself", "#about# your mutual acquaintance, who, by the way, says hi", "#about# yourself", "as #regalTitle#"
+		"#about# the fall of the patriarchy", "#about# the state of the union", "#about# the weather", "#about# their day", "#about# their friends and family", "#about# their job",  "#about# their #wellBeing#", "#about# themself", "#about# your mutual acquaintance, who, by the way, says hi", "#about# yourself", "as #regalTitle#", "in a silly voice", "in your non-native language", "using only gestures and onomatopoeia", "with your hands"
 	],
 	"adjective":
 	[
@@ -90,7 +90,7 @@ var madlibs =
 	],
 	"adverb":
 	[
-		"bashfully", "boldly", "carefully", "cordially", "coolly", "deeply", "deftly", "enthusiastically", "firmly", "flamboyantly", "gently", "gingerly", "impolitely", "intensely", "kindly", "modestly", "ostentatiously", "politely", "profoundly", "quickly", "reluctantly", "regally", "reservedly", "rhythmically", "silently", "sincerely", "softly", "suddenly", "unabashedly", "unreservedly", "vigorously", "warmly"
+		"bashfully", "boldly", "carefully", "cordially", "coolly", "deeply", "deftly", "enthusiastically", "firmly", "flamboyantly", "gently", "gingerly", "impolitely", "intensely", "kindly", "modestly", "ostentatiously", "politely", "profoundly", "quickly", "reluctantly", "regally", "reservedly", "rhythmically", "silently", "sincerely", "softly", "suddenly", "unabashedly", "unreservedly", "warmly"
 	],
 	"anointingObject":
 	[
@@ -98,7 +98,7 @@ var madlibs =
 	],
 	"blessing":
 	[
-		"curse word", "enchantment", "Gregorian chant", "haiku", "interpretive dance", "oath", "obscure word", "offering", "Om", "orison", "poem", "prayer", "riverdance", "sacrifice", "secret", "semaphore pattern", "series of hand gestures", "song", "sonnet", "sun salutation", "wave of your hand", "yodel"
+		"curse word", "enchantment", "Gregorian chant", "haiku", "interpretive dance", "karaoke rendition of your favourite song", "oath", "obscure word", "offering", "Om", "orison", "poem", "prayer", "riverdance", "sacrifice", "secret", "semaphore pattern", "series of hand gestures", "sneeze", "song", "sonnet", "sun salutation", "wave of your hand", "yodel"
 	],
 	"bodyPart":
 	[
@@ -106,11 +106,15 @@ var madlibs =
 	],
 	"bodyPartPair":
 	[
-		"ankle", "arm", "cheek", "elbow", "foot", "hand", "knee", "leg", "shoulder"
+		"ankle", "arm", "cheek", "elbow", "foot", "hand", "knee", "shoulder"
 	],
 	"bodyPartSingle":
 	[
-		"back", "chest", "chin", "forehead", "head", "neck", "nose", "stomach"
+		"back", "chin", "forehead", "head", "nose", "stomach"
+	],
+	"clearing":
+	[
+		"cleansing", "clearing", "incinerating", "purifying", "ridding", "scrubbing"
 	],
 	"direction":
 	[
@@ -118,7 +122,7 @@ var madlibs =
 	],
 	"gesture":
 	[
-		"bow", "curtsy", "dance", "gesticulate", "grimace", "incline", "jump", "lean", "nod", "pirouette", "play air guitar", "point", "roll", "smile", "snap your fingers", "sneak", "stand on one leg", "step", "stick out your tongue", "turn", "undulate", "walk", "wave", "wiggle"
+		"bow", "curtsy", "dance", "do the macarena", "do the twist", "do the wave", "gesticulate", "grimace", "hand jive", "hold out your hands", "incline", "jump", "lean", "nod", "patty-cake", "pirouette", "play air guitar", "play peekaboo", "point", "roll", "smile", "snap your fingers", "sneak", "stand on one leg", "step", "stick out your tongue", "turn", "undulate", "walk", "wave", "wiggle"
 	],
 	"greetingPhrase":
 	[
@@ -142,19 +146,19 @@ var madlibs =
 	],
 	"number":
 	[
-		"negative infinity", "negative one", "zero", "three", "pi", "five", "seven", "nine", "nineteen", "forty-two", "one hundred and seven", "four hundred and twenty-nine", "nine thousand", "a million", "infinity", "two infinities", "the square root of negative one"
+		"negative infinity", "negative one", "zero", "phi", "three", "pi", "five", "tau", "seven", "nine", "nine point five", "ten", "a baker's dozen", "nineteen", "twenty", "forty-two", "fifty", "sixty-nine", "ninety-nine", "one hundred", "one hundred and seven", "four hundred and twenty-nine", "six hundred and sixty-six", "seven hundred and seventy-seven", "eight hundred", "nine thousand", "a million", "two million", "a billion", "a trillion", "a quadrillion", "a zillion", "Avogadro's number", "a googolplex", "infinity", "two infinities", "the square root of negative one"
 	],
 	"person":
 	[
-		"adjunct professor", "award-winning recording artist", "baker", "ballerina", "blanket fort engineer", "butcher", "candlestick maker", "cobbler", "debutante", "French philosopher", "game jammer", "heir to the bubblegum machine empire", "international person of mystery", "jewel thief", "king", "mediocre white man", "new media artist", "Olympic gold medalist", "pastry chef", "PhD student", "prince", "princess", "queen", "quing", "shoemaker", "software engineer", "spy master", "sushi chef", "tabletop roleplayer", "tenured professor"
+		"adjunct professor", "alicorn", "astronaut", "award-winning recording artist", "baker", "ballerina", "barista", "blanket fort engineer", "butcher", "candlestick maker", "cobbler", "contortionist", "curator", "custodian", "debutante", "Disney princess", "escape artist", "first person narrator", "French philosopher", "game jammer", "heir to the bubblegum machine empire", "hero protagonist", "Imagineer", "independent filmmaker", "international person of mystery", "jewel thief", "juggler", "king", "kitten", "mediocre white man", "Mountie", "new media artist", "ninja turtle", "Nobel Prize winner", "noble hippopotamus", "non-player character", "Olympic gold medalist", "pair of oxen", "pastry chef", "PhD student", "prince", "princess", "queen", "quing", "rocket scientist", "seamstress", "shaman", "shoemaker", "show pony", "software engineer", "spy master", "sushi chef", "tabletop roleplayer", "tailor", "teenager", "tenured professor", "toddler", "unicorn", "world champion"
 	],
 	"positiveAttribute":
 	[
-		"adeptness", "adroitness", "aptitude", "assertiveness", "attitude", "audacity", "bravery", "brilliance", "brutal honesty", "charisma", "compassion", "confidence", "constitution", "countenance", "courage", "curiosity", "dedication", "derring-do", "dexterity", "discipline", "flair", "flamboyance", "flourish", "fortitude", "gentleness", "honesty", "humility", "intellect", "je ne sais quoi", "joie de vivre", "leadership", "loving-kindness", "modesty", "panache", "passion", "pizzazz", "prowess", "rancor", "restraint", "solipsism", "speed", "strength", "style", "tact", "technical skill", "wisdom", "zest"
+		"adeptness", "adroitness", "aptitude", "assertiveness", "attitude", "audacity", "bravery", "brilliance", "brutal honesty", "charisma", "compassion", "confidence", "constitution", "countenance", "courage", "curiosity", "dedication", "derring-do", "dexterity", "discipline", "flair", "flamboyance", "flourish", "fortitude", "gentleness", "honesty", "humility", "intellect", "je ne sais quoi", "joie de vivre", "leadership", "loving-kindness", "modesty", "nobility", "panache", "passion", "pizzazz", "prowess", "rancor", "restraint", "solipsism", "speed", "strength", "style", "tact", "technical skill", "wisdom", "zest"
 	],
 	"regalAdjective":
 	[
-		"chosen", "eminent", "esteemed", "famous", "godly", "prominent", "regal"
+		"chosen", "eminent", "esteemed", "famous", "godly", "noble", "prominent", "regal"
 	],
 	"regalTitle":
 	[
