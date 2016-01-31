@@ -23,8 +23,7 @@ var madlibs =
 		"Clearing your #ineffableAspect# of #unwantedThoughts#, #ritualCommand#.",
 		"With #adjective.a# #bodyPart#, #ritualCommand#.",
 		"With #positiveAttribute#, #ritualCommand#.",
-		"Anoint yourself with #anointingObject.a#.",
-		"Bless the #currentLocation# you are in with #blessing.a#."
+		"With the #positiveAttribute# of #person.a#, #ritualCommand#."
 	],
 	"ritualCommand":
 	[
@@ -34,7 +33,9 @@ var madlibs =
 		"say \"#greetingPhrase#\" to your partner",
 		"#touch# your partner's #bodyPart# with your #bodyPart#",
 		"#gesture# towards your partner",
-		"cheek-kiss your partner #kissNumber# times, starting with the #direction# cheek"
+		"cheek-kiss your partner #kissNumber# times, starting with the #direction# cheek",
+		"anoint yourself with #anointingObject.a#",
+		"bless the #currentLocation# you are in with #blessing.a#"
 	],
 	"judgeFeedback":
 	[
@@ -77,7 +78,7 @@ var madlibs =
 	],
 	"about":
 	[
-		"about", "regarding"
+		"about", "on the subject of", "regarding", "with regards to"
 	],
 	"aboutSomething":
 	[
@@ -85,11 +86,11 @@ var madlibs =
 	],
 	"adjective":
 	[
-		"bashful", "blessed", "closed", "cordial", "cool", "deft", "deep", "enthusiastic", "firm", "gentle", "hard", "impolite", "intense", "kind", "nonjudgemental", "open", "polite", "profound", "reluctant", "regal", "reserved", "rhythmic", "silent", "sincere", "soft", "sudden", "unabashed", "unreserved", "vigorous", "warm"
+		"assertive", "audacious", "bashful", "blessed", "bold", "closed", "cordial", "cool", "decorative", "deft", "deep", "energetic", "enthusiastic", "firm", "flamboyant", "gentle", "hard", "impolite", "intense", "kind", "lively", "modest", "nonjudgemental", "open", "ostentatious", "polite", "profound", "practiced", "pure", "quick", "reluctant", "regal", "reserved", "rhythmic", "serious", "silent", "sincere", "skilled", "soft", "still", "sudden", "unabashed", "unreserved", "vigorous", "virile", "warm", "wholesome"
 	],
 	"adverb":
 	[
-		"bashfully", "cordially", "coolly", "deeply", "enthusiastically", "firmly", "gently", "gingerly", "impolitely", "intensely", "kindly", "politely", "profoundly", "reluctantly", "regally", "reservedly", "rhythmically", "silently", "sincerely", "softly", "suddenly", "unabashedly", "unreservedly", "vigorously", "warmly"
+		"bashfully", "boldly", "carefully", "cordially", "coolly", "deeply", "deftly", "enthusiastically", "firmly", "flamboyantly", "gently", "gingerly", "impolitely", "intensely", "kindly", "modestly", "ostentatiously", "politely", "profoundly", "quickly", "reluctantly", "regally", "reservedly", "rhythmically", "silently", "sincerely", "softly", "suddenly", "unabashedly", "unreservedly", "vigorously", "warmly"
 	],
 	"anointingObject":
 	[
@@ -105,11 +106,11 @@ var madlibs =
 	],
 	"bodyPartPair":
 	[
-		"cheek", "hand", "shoulder"
+		"ankle", "arm", "cheek", "elbow", "foot", "hand", "knee", "leg", "shoulder"
 	],
 	"bodyPartSingle":
 	[
-		"forehead", "head", "neck", "nose"
+		"back", "chest", "chin", "forehead", "head", "neck", "nose", "stomach"
 	],
 	"direction":
 	[
@@ -117,11 +118,11 @@ var madlibs =
 	],
 	"gesture":
 	[
-		"bow", "curtsy", "gesticulate", "grimace", "incline", "jump", "lean", "nod", "pirouette", "play air guitar", "roll", "smile", "snap your fingers", "sneak", "stand on one leg", "step", "stick out your tongue", "turn", "undulate", "walk", "wave"
+		"bow", "curtsy", "dance", "gesticulate", "grimace", "incline", "jump", "lean", "nod", "pirouette", "play air guitar", "point", "roll", "smile", "snap your fingers", "sneak", "stand on one leg", "step", "stick out your tongue", "turn", "undulate", "walk", "wave", "wiggle"
 	],
 	"greetingPhrase":
 	[
-		"Bonjour!", "Fancy seeing you in this #currentLocation#!", "Greetings!", "Hello!", "Hey there!", "Hi there!", "I've known you since you were this big!", "My, how you've grown!", "Namaste.", "Oh hey!", "Oh, is that [partner's name]?", "Salutations!", "'Sup?", "What's #person.a# like you doing in a #currentLocation# like this?", "Yo!"
+		"Bonjour!", "Fancy seeing you in this #currentLocation#!", "Greetings!", "Hello!", "Hey there!", "Hi there!", "I've known you since you were this big!", "My, how you've grown!", "Namaste.", "Oh hey!", "Oh, is that (partner's name)?", "Salutations!", "'Sup?", "What's #person.a# like you doing in a #currentLocation# like this?", "Yo!"
 	],
 	"ineffableAspect":
 	[
@@ -145,19 +146,19 @@ var madlibs =
 	],
 	"person":
 	[
-		"#adjective# person", "award-winning recording artist", "baker", "blanket fort engineer", "butcher", "candlestick maker", "game jammer", "heir to the bubblegum machine empire", "international person of mystery", "Olympic gold medalist", "shoemaker", "spy master", "tabletop roleplayer"
+		"adjunct professor", "award-winning recording artist", "baker", "ballerina", "blanket fort engineer", "butcher", "candlestick maker", "cobbler", "debutante", "French philosopher", "game jammer", "heir to the bubblegum machine empire", "international person of mystery", "jewel thief", "king", "mediocre white man", "new media artist", "Olympic gold medalist", "pastry chef", "PhD student", "prince", "princess", "queen", "quing", "shoemaker", "software engineer", "spy master", "sushi chef", "tabletop roleplayer", "tenured professor"
 	],
 	"positiveAttribute":
 	[
-		"adeptness", "adroitness", "aptitude", "attitude", "audacity", "bravery", "brutal honesty", "charisma", "constitution", "courage", "dedication", "derring-do", "dexterity", "fortitude", "gentleness", "honesty", "intellect", "je ne sais quoi", "leadership", "panache", "prowess", "rancor", "solipsism", "speed", "strength", "style", "tact", "wisdom"
+		"adeptness", "adroitness", "aptitude", "assertiveness", "attitude", "audacity", "bravery", "brilliance", "brutal honesty", "charisma", "compassion", "confidence", "constitution", "countenance", "courage", "curiosity", "dedication", "derring-do", "dexterity", "discipline", "flair", "flamboyance", "flourish", "fortitude", "gentleness", "honesty", "humility", "intellect", "je ne sais quoi", "joie de vivre", "leadership", "loving-kindness", "modesty", "panache", "passion", "pizzazz", "prowess", "rancor", "restraint", "solipsism", "speed", "strength", "style", "tact", "technical skill", "wisdom", "zest"
 	],
 	"regalAdjective":
 	[
-		"chosen", "esteemed", "famous"
+		"chosen", "eminent", "esteemed", "famous", "godly", "prominent", "regal"
 	],
 	"regalTitle":
 	[
-		"#person.a#", "#regalAdjective.capitalize# One", "Grandmaster Flash", "O [partner's name]", "Professor", "Teacher", "Your Excellency"
+		"#person.a#", "#regalAdjective.capitalize# One", "Grandmaster Flash", "O (partner's name)", "Professor", "Teacher", "Your Excellency"
 	],
 	"speakTo":
 	[
@@ -165,11 +166,11 @@ var madlibs =
 	],
 	"touch":
 	[
-		"caress", "fist bump", "hold", "nudge", "pat", "poke", "rub", "take", "tap", "tickle", "touch"
+		"caress", "fist bump", "hold", "nudge", "pat", "poke", "rub", "shake", "stroke", "take", "tap", "tickle", "touch"
 	],
 	"unwantedThoughts":
 	[
-		"anger", "doubt", "embarrassment", "envy", "hatred", "jealousy", "judgement", "unwanted thoughts"
+		"anger", "avarice", "darkness", "despair", "doubt", "embarrassment", "envy", "evil", "gluttony", "greed", "hatred", "impure thoughts", "jealousy", "judgement", "pride", "sloth", "unwanted thoughts", "wrath"
 	],
 	"wellBeing":
 	[
