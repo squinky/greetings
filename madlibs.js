@@ -73,7 +73,8 @@ var madlibs =
 		"You are a disgrace to every #person#.",
 		"You are the most #adjective# #person# to ever set foot in this establishment.",
 		"You are truly #adjective#.",
-		"You will forever be renowned for your #positiveAttribute#.",
+		"You are worthy of being called #regalTitle#.",
+		"You will forever be #renowned# for your #positiveAttribute#.",
 		"You will never be able to set foot in this establishment again."
 	],
 	"about":
@@ -82,7 +83,7 @@ var madlibs =
 	],
 	"aboutSomething":
 	[
-		"#about# the fall of the patriarchy", "#about# the state of the union", "#about# the weather", "#about# their day", "#about# their friends and family", "#about# their job",  "#about# their #wellBeing#", "#about# themself", "#about# your mutual acquaintance, who, by the way, says hi", "#about# yourself", "as #regalTitle#", "in a silly voice", "in your non-native language", "using only gestures and onomatopoeia", "with your hands"
+		"#about# the fall of the patriarchy", "#about# the state of the union", "#about# the weather", "#about# their day", "#about# their friends and family", "#about# their job",  "#about# their #wellBeing#", "#about# themself", "#about# your mutual acquaintance, who, by the way, says hi", "#about# yourself", "as \"#regalTitle#\"", "in a silly voice", "in your non-native language", "using only gestures and onomatopoeia", "with your hands"
 	],
 	"adjective":
 	[
@@ -124,9 +125,15 @@ var madlibs =
 	[
 		"bow", "curtsy", "dance", "do the macarena", "do the twist", "do the wave", "gesticulate", "grimace", "hand jive", "hold out your hands", "incline", "jump", "lean", "nod", "patty-cake", "pirouette", "play air guitar", "play peekaboo", "point", "roll", "smile", "snap your fingers", "sneak", "stand on one leg", "step", "stick out your tongue", "turn", "undulate", "walk", "wave", "wiggle"
 	],
+	"greeting":
+	[
+		"Ahoy-hoy!", "Bonjour!", "Cheers!", "Fancy seeing you in this #currentLocation#!", "Good afternoon.", "Good day.", "Good evening.", "Good morning.", "Good night.", "Greetings!", "Hello!", "Hey there!", "Hi there!", "How do you do?", "Howdy!", "I expected you to be taller.", "I've known you since you were this big!", "Mars is bright tonight.", "My, how you've grown!", "Namaste.", "Oh hey!", "Oh, is that (partner's name)?", "Peace be upon you.", "Salutations!", "'Sup?", "This isn't where I parked my car...", "What's #person.a# like you doing in a #currentLocation# like this?", "Yo!", "You look different... did you get a haircut?", "You're looking well."
+	],
 	"greetingPhrase":
 	[
-		"Bonjour!", "Fancy seeing you in this #currentLocation#!", "Greetings!", "Hello!", "Hey there!", "Hi there!", "I've known you since you were this big!", "My, how you've grown!", "Namaste.", "Oh hey!", "Oh, is that (partner's name)?", "Salutations!", "'Sup?", "What's #person.a# like you doing in a #currentLocation# like this?", "Yo!"
+		"#greeting#",
+		"#greeting# #greeting#",
+		"O #regalTitle#! #greeting#"
 	],
 	"ineffableAspect":
 	[
@@ -150,11 +157,11 @@ var madlibs =
 	],
 	"person":
 	[
-		"adjunct professor", "alicorn", "astronaut", "award-winning recording artist", "baker", "ballerina", "barista", "blanket fort engineer", "butcher", "candlestick maker", "cobbler", "contortionist", "curator", "custodian", "debutante", "Disney princess", "escape artist", "first person narrator", "French philosopher", "game jammer", "heir to the bubblegum machine empire", "hero protagonist", "Imagineer", "independent filmmaker", "international person of mystery", "jewel thief", "juggler", "king", "kitten", "mediocre white man", "Mountie", "new media artist", "ninja turtle", "Nobel Prize winner", "noble hippopotamus", "non-player character", "Olympic gold medalist", "pair of oxen", "pastry chef", "PhD student", "prince", "princess", "queen", "quing", "rocket scientist", "seamstress", "shaman", "shoemaker", "show pony", "software engineer", "spy master", "sushi chef", "tabletop roleplayer", "tailor", "teenager", "tenured professor", "toddler", "unicorn", "world champion"
+		"adjunct professor", "alicorn", "astronaut", "award-winning recording artist", "baker", "ballerina", "barista", "blanket fort engineer", "butcher", "candlestick maker", "cobbler", "contortionist", "curator", "custodian", "debutante", "Disney princess", "escape artist", "first person narrator", "French philosopher", "game jammer", "heir to the bubblegum machine empire", "hero protagonist", "Imagineer", "independent filmmaker", "international person of mystery", "jewel thief", "juggler", "king", "kitten", "mediocre white man", "Mountie", "new media artist", "ninja turtle", "Nobel Prize winner", "noble hippopotamus", "non-player character", "nurse", "Olympic gold medalist", "pair of oxen", "pastry chef", "PhD student", "prince", "princess", "queen", "quing", "rocket scientist", "seamstress", "shaman", "shoemaker", "show pony", "software engineer", "spy master", "sushi chef", "tabletop roleplayer", "tailor", "teenager", "tenured professor", "toddler", "unicorn", "world champion"
 	],
 	"positiveAttribute":
 	[
-		"adeptness", "adroitness", "aptitude", "assertiveness", "attitude", "audacity", "bravery", "brilliance", "brutal honesty", "charisma", "compassion", "confidence", "constitution", "countenance", "courage", "curiosity", "dedication", "derring-do", "dexterity", "discipline", "flair", "flamboyance", "flourish", "fortitude", "gentleness", "honesty", "humility", "intellect", "je ne sais quoi", "joie de vivre", "leadership", "loving-kindness", "modesty", "nobility", "panache", "passion", "pizzazz", "prowess", "rancor", "restraint", "solipsism", "speed", "strength", "style", "tact", "technical skill", "wisdom", "zest"
+		"adeptness", "adroitness", "aptitude", "assertiveness", "attitude", "audacity", "bravery", "brilliance", "brutal honesty", "charisma", "compassion", "confidence", "constitution", "countenance", "courage", "curiosity", "dedication", "derring-do", "dexterity", "discipline", "flair", "flamboyance", "flourish", "fortitude", "gentleness", "honesty", "humility", "intellect", "je ne sais quoi", "joie de vivre", "jouissance", "leadership", "loving-kindness", "modesty", "nobility", "panache", "passion", "pizzazz", "prowess", "rancor", "restraint", "solipsism", "speed", "strength", "style", "tact", "technical skill", "wisdom", "zest"
 	],
 	"regalAdjective":
 	[
@@ -162,7 +169,11 @@ var madlibs =
 	],
 	"regalTitle":
 	[
-		"#person.a#", "#regalAdjective.capitalize# One", "Grandmaster Flash", "O (partner's name)", "Professor", "Teacher", "Your Excellency"
+		"#regalAdjective.capitalize# One", "Airbender", "Beyonce", "Captain", "Cher", "Chief", "Comrade", "Governor", "Grandmaster Flash", "Inigo Montoya", "Jedi Master", "Khaleesi", "King in the North", "Master Chief", "Mother of Dragons", "My Sun and Stars", "O Captain My Captain", "Pokemon Champion", "President", "Prime Minister", "Professor", "Sheriff", "Sith Lord", "Teacher", "Your Excellency", "Your Majesty"
+	],
+	"renowned":
+	[
+		"esteemed", "famous", "heralded", "infamous", "known", "notorious", "praised", "recognized", "remembered", "renowned"
 	],
 	"speakTo":
 	[
