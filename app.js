@@ -5,6 +5,7 @@ var FEEDBACK_SCREEN = 3;
 var NUM_STEPS = 7;
 var currentScreen;
 var grammar;
+var currentBackground = 0;
 
 function setCurrentScreen(s)
 {
@@ -20,6 +21,8 @@ function setCurrentScreen(s)
 		
 		$('#timerText').stopwatch({format: '{M}:{ss}'}).stopwatch('reset');
 		$('#timerText').text("0:00");
+		
+		setBackground();
 	}
 	if (s == INTRO_SPIEL_SCREEN)
 	{
@@ -70,6 +73,25 @@ function cycleCurrentScreen()
 	
 	if (currentScreen == FEEDBACK_SCREEN) setCurrentScreen(TITLE_SCREEN);
 	else setCurrentScreen(currentScreen+1);
+}
+
+function setBackground()
+{
+	if (currentBackground == 0)
+	{
+		$("#drawing").css("background-image", "url(\"assets/candle1.png\")");
+		currentBackground++;
+	}
+	else if (currentBackground == 1)
+	{
+		$("#drawing").css("background-image", "url(\"assets/waterfall1.png\")");
+		currentBackground++;
+	}
+	else if (currentBackground == 2)
+	{
+		$("#drawing").css("background-image", "url(\"assets/rocksculpture1.png\")");
+		currentBackground = 0;
+	}
 }
 
 KeyboardController({ 32: function() { cycleCurrentScreen(); } }, 2000);
